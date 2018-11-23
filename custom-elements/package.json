@@ -66,8 +66,10 @@
     "watchify": "^3.10.0"
   },
   "dependencies": {
-    "bpmn-js": "^3.0.1",
-    "diagram-js": "^3.0.0",
+    "bpmn-js": "^3.0.2",
+    "bpmn-js-properties-panel": "^0.28.0",
+    "camunda-bpmn-moddle": "^3.1.1",
+    "diagram-js": "^3.0.1",
     "inherits": "^2.0.1",
     "min-dash": "^3.0.0",
     "tiny-svg": "^2.0.0"

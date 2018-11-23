@@ -52,6 +52,16 @@ module.exports = function(grunt) {
           }
         ]
       },
+      bpmn_js_properties_panel: {
+        files: [
+          {
+            expand: true,
+            cwd: resolvePath('bpmn-js-properties-panel', 'dist'),
+            src: ['**/*.*', '!**/*.js'],
+            dest: 'dist/vendor/bpmn-js-properties-panel'
+          }
+        ]
+      },
       app: {
         files: [
           {
